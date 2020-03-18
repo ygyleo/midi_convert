@@ -1,2 +1,17 @@
-# midi_convert
-midi and csv can be(or other type text) converted from one to another
+Appsongs里是150首app里的dtx转换过来的midi以及csv  
+Eighty_songs里是八十首（其实暂时删去了一些）  
+其余的都是处理midi的脚本  
+拍号，速度和对应的时间放在csv开头  
+
+csv格式
+=================
+
+
+|  列0   | 列1  |
+|  ----  | ----  |
+| 单位时间  | 拍号分子*300+分母 |
+| ...  | ... |
+| 单位时间  | tempo |
+| ...  | ... |
+| 单位时间  | 音高 |
+| ...  | ... |
